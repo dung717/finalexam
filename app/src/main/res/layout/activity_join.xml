@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/join"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="626dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:shadowColor="#B3ACAC"
+            android:text='"모든 입력사항은 필수입니다"'
+            android:textColor="#131313"
+            android:textSize="24sp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:hint="성 함"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#939393" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:hint="이 메 일 (필 수)"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#939393" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:hint="비 밀 번 호"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#939393" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:hint="연 락 처"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#939393" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:hint="주 소"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textColorHint="#939393" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="돌 아 가 기" />
+    </LinearLayout>
+</LinearLayout>
